@@ -1,0 +1,65 @@
+/* Style the active/current link*/
+.header a.active {
+  background-color: #ff8c00;
+  color: white;
+}
+
+
+
+<style>
+body {
+  background-image: url("bg.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  font-family: "Saira";
+}
+</style>
+
+/* Saira font */
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Saira:wght@100&display=swap" rel="stylesheet">
+
+
+
+
+
+<div class="header">
+  <a href="#default" class="logo">My Portfolio</a>
+  <div class="header-right">
+    <a class="active" href="#home">Home</a>
+    <a href="contact.php">Contact</a>
+    <a href="#about">About</a>
+    <a href="#askme">Ask Me</a>
+  </div>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="myname">
+
+    <h1>IAN ROBIN BREVA</h1>
+    <h3>STREET PHOTOGRAPHER</h3>
+
+</div>
+
+
+<div class="introduction">
+
+  <main>Freelance/street photograher based in Laguna.</main>
+  <main>I shoot portraits, landscapes and everyday street life.</main>
+
+</div>
+
+
+<div class="portfolio">
+  <a href="myportfolio">My Portfolio</a>
+</div>
